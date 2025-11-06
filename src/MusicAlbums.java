@@ -5,9 +5,9 @@ public class MusicAlbums extends Media {
     private double duration;
 
     public MusicAlbums(int id, int releaseYear, String artist, String title,
-                 int sales, int tracks, double duration, String genre) {
+                 int sales, int tracks, double duration, String genre) { // all args related to Music Albums
 
-        super(id, releaseYear, title);
+        super(id, releaseYear, title); // comes from its Parent class Media
         this.artist = artist;
         this.sales = sales;
         this.tracks = tracks;

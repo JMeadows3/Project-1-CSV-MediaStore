@@ -5,9 +5,9 @@ public class VideoGames extends Media {
         private double sales;
 
         public VideoGames(int id, String title, String platform, int releaseYear,
-                     String genre, String publisher, double sales) {
+                     String genre, String publisher, double sales) { // all args related to VideoGames
 
-            super(id, releaseYear, title);
+            super(id, releaseYear, title); // comes from its Parent class Media
             this.platform = platform;
             this.genre = genre;
             this.publisher = publisher;
